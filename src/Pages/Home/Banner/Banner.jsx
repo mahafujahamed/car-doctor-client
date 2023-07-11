@@ -10,13 +10,13 @@ const Banner = () => {
         <div className="carousel w-full h-[600px]">
             <div id="slide1" className="carousel-item relative w-full">
                 <img src={img1} className="w-full rounded-lg" />
-                <div className="absolute flex  transform -translate-y-1/2 left-5 right-5 top-1/4">
+                <div className="absolute flex  transform -translate-y-1/2 left-5 right-5 top-1/4  bg-gradient-to-r from-cyan-500 to-blue-500">
                     <div className='text-white space-y-7 w-1/3'>
                         <h2 className='text-6xl font-bold'>Affodable Price For car Servicing</h2>
                         <p>There are many variations of passages of available, but the majority have suffered alternative in some form</p>
                     </div>
                     <div>
-                        <button className='btn btn-primary r-5'>Discover More</button>
+                        <button className='btn btn-primary mr-5'>Discover More</button>
                         <button className="btn btn-outline btn-secondary">Latest Projects</button>
                     </div>
                 </div>
